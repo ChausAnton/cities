@@ -2,7 +2,7 @@ from parser_city import main, list_of_cities
 from check_city import check_this_city
 import telebot
 
-TOKEN = "1095275624:AAHkD_FXezmRwkINp6pTjS4DZvkmHp3yq0Q"
+TOKEN = ""
 bot = telebot.TeleBot(TOKEN)
 game_over = False #глобальная переменная проверки на то, закончилась ли игра
 
